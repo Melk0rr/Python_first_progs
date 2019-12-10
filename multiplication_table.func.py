@@ -1,7 +1,10 @@
 #!/usr/local/bin/python3.8
 # -*-coding:Utf-8 -*
 
-# Table function to print multiplication table of n until max
+"""
+Function to print multiplication table of the given n number until the given max number
+(n >=0), (max >=0)
+"""
 def table(n, max = 10):
     print(f"%%%%%%%%%%%% Table de {n} %%%%%%%%%%%%")
     i = 0
